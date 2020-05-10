@@ -1,21 +1,9 @@
 <template>
   <div>
     <div class="container">
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
-      <div class="contents"></div>
+      <div class="contents">
+        <p>たまねぎ</p>
+      </div>
     </div>
   </div>
 </template>
@@ -30,5 +18,13 @@
   margin: 10px auto 0 auto;
   background-color: #ffffff;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 1.3rem;
+}
+.contents p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #404040;
 }
 </style>

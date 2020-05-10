@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <p>買うものリスト</p>
+      <p>買ってきて欲しいものリスト</p>
     </div>
   </div>
 </template>
@@ -15,7 +15,7 @@
   display: flex;
 }
 .container p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 900;
   color: #f7f7f7;
 }

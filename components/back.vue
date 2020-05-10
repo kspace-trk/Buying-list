@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nuxt-link to="/contents/new" tag="div" class="container">
+    <nuxt-link to="/" tag="div" class="container">
       <button class="contents">
-        <p>追 加 す る</p>
+        <p>戻 る</p>
       </button>
     </nuxt-link>
   </div>
