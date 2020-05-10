@@ -1,16 +1,28 @@
 <template>
-  <div class="container">
-    <div class="contents"></div>
-    <div class="contents"></div>
-    <div class="contents"></div>
+  <div>
+    <div class="container">
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+      <div class="contents"></div>
+    </div>
   </div>
 </template>
 <style scoped>
 .container {
   padding-top: 40px;
   display: block;
-  background-color: #f7f7f7;
-  height: 100vh;
 }
 .contents {
   width: 90%;

@@ -4,7 +4,10 @@
       <buyingListHeader />
     </div>
     <div class="contents">
-    <contents />
+      <contents />
+    </div>
+    <div class="footer">
+      <buyingListFooter />
     </div>
   </div>
 </template>
@@ -12,11 +15,13 @@
 <script>
 import buyingListHeader from "~/components/header.vue";
 import contents from "~/components/contents.vue";
+import buyingListFooter from "~/components/footer.vue";
 
 export default {
   components: {
     buyingListHeader,
-    contents
+    contents,
+    buyingListFooter
   }
 };
 </script>
@@ -26,8 +31,16 @@ export default {
   width: 100%;
   display: flex;
   position: fixed;
+  justify-content: center;
+  background-color: #404040;
 }
 .contents {
-  padding-top: 50px;
+  padding: 40px 0 100px;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  top: calc(100vh - 60px); /*calc(100vh - フッターの高さpx)*/
+  z-index: 10;
 }
 </style>
