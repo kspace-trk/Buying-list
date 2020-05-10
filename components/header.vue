@@ -10,8 +10,12 @@
   background-color: #404040;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  color: #f7f7f7;
+
   display: flex;
+}
+.container p {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #f7f7f7;
 }
 </style>
