@@ -1,7 +1,11 @@
 <template>
   <div class="container">
-    <buyingListHeader />
+    <div class="header">
+      <buyingListHeader />
+    </div>
+    <div class="contents">
     <contents />
+    </div>
   </div>
 </template>
 
@@ -17,5 +21,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+.contents {
+  padding-top: 50px;
+}
 </style>

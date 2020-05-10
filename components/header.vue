@@ -14,7 +14,7 @@
   display: flex;
 }
 .container p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 900;
   color: #f7f7f7;
 }
