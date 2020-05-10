@@ -165,5 +165,9 @@ hr {
 input,
 select {
   vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
 }
 /*css reset end*/
