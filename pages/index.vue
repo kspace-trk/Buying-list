@@ -32,7 +32,7 @@ export default {
   display: flex;
   position: fixed;
   justify-content: center;
-  background-color: #404040;
+  background-color: #404040c9;
 }
 .contents {
   padding: 40px 0 100px;

@@ -4,6 +4,30 @@
       <div class="contents">
         <p>たまねぎ</p>
       </div>
+      <div class="contents">
+        <p>カフェオレ</p>
+      </div>
+      <div class="contents">
+        <p>にんじん</p>
+      </div>
+      <div class="contents">
+        <p>コーヒー</p>
+      </div>
+      <div class="contents">
+        <p>ラーメンの麺</p>
+      </div>
+      <div class="contents">
+        <p>たまねぎ</p>
+      </div>
+      <div class="contents">
+        <p>たまねぎ</p>
+      </div>
+      <div class="contents">
+        <p>たまねぎ</p>
+      </div>
+      <div class="contents">
+        <p>たまねぎ</p>
+      </div>
     </div>
   </div>
 </template>
@@ -14,7 +38,7 @@
 }
 .contents {
   width: 90%;
-  height: 70px;
+  height: 4rem;
   margin: 10px auto 0 auto;
   background-color: #ffffff;
   border-radius: 10px;
