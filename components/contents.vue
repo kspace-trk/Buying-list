@@ -47,8 +47,8 @@
   padding-left: 1.3rem;
 }
 .contents p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  color: #404040;
+  color: #505050;
 }
 </style>
